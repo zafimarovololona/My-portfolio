@@ -2,35 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Belle Sugi - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Hello, I'm Belle Sugi</h1>
-    <p>Aspiring Web Developer | Open to Projects</p>
+    <div class="container">
+      <h1>Belle Sugi</h1>
+      <p class="subtitle">Aspiring Web Developer | Open to Projects</p>
+    </div>
   </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h3>Project One</h3>
-        <p>Description of your first project.</p>
-      </li>
-      <li>
-        <h3>Project Two</h3>
-        <p>Description of your second project.</p>
-      </li>
-    </ul>
-  </section>
+  <main class="container">
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A responsive portfolio website to showcase skills and projects.</p>
+          <a href="#" class="btn">View More</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>A simple blog platform built with HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn">View More</a>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: yourname@example.com</p>
-    <p>GitHub: <a href="https://github.com/zafimarovololona" target="_blank">zafimarovololona</a></p>
-  </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/zafimarovololona" target="_blank" rel="noopener noreferrer">zafimarovololona</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Belle Sugi</p>
